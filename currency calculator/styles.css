@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-links {
+    display: flex;
+    align-items: center;
+}
+.header-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    background-image: url('highest-currencies-world-1024x679-1.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-block {
+    text-align: center;
+    margin-top: -50px; 
+}
+.text-heading {
+    font-size: 28px;
+    color: #333;
+}
+
+.currency-calculator {
+    background-color: #f4f4f4;
+    padding: 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
+    width: 40%;
+    max-width: 500px; 
+    min-width: 300px; 
+    height: 50%;     max-height: 500px; 
+    min-height: 400px; 
+}
+
+.currency-calculator h2,
+.currency-calculator button,
+.currency-calculator select,
+.currency-calculator input {
+    font-size: 18px; 
+    padding: 10px 20px;
+    margin: 5px; 
+}
+
+.currency-inputs {
+    margin-bottom: 10px;
+}
+#convertBtn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#convertBtn:hover {
+    background-color: #555;
+}
+#convertedAmount {
+    font-size: 20px;
+    margin-top: 10px;
+}

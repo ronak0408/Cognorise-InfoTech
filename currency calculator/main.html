@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Header and Currency Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-links">
+            <a href="#">About</a>
+        </div>
+        <h1>Currency Calculator</h1>
+    </header>
+
+    <section>
+        <div class="section-content">
+            <h2>Welcome to Our Website</h2>
+        </div>
+    </section>
+
+    <div class="text-block">
+        <h2 class="text-heading">Check Your Currency Rate Here</h2>
+    </div>
+
+    <div class="currency-calculator">
+        <h2>Currency Converter</h2>
+        <div class="currency-inputs">
+            <label for="fromCurrency">From:</label>
+            <select id="fromCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="JPY">JPY</option>
+                <option value="CHF">CHF</option>
+                <option value="CNY">CNY</option>
+                <option value="INR">INR</option>
+                <option value="MXN">MXN</option>
+                <option value="SGD">SGD</option>
+                <option value="NZD">NZD</option>
+                <option value="HKD">HKD</option>
+                <option value="SEK">SEK</option>
+                <option value="NOK">NOK</option>
+                <option value="DKK">DKK</option>
+            </select>
+            <input type="number" id="amount" placeholder="Enter Amount">
+        </div>
+        <div class="currency-inputs">
+            <label for="toCurrency">To:</label>
+            <select id="toCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="JPY">JPY</option>
+                <option value="CHF">CHF</option>
+                <option value="CNY">CNY</option>
+                <option value="INR">INR</option>
+                <option value="MXN">MXN</option>
+                <option value="SGD">SGD</option>
+                <option value="NZD">NZD</option>
+                <option value="HKD">HKD</option>
+                <option value="SEK">SEK</option>
+                <option value="NOK">NOK</option>
+                <option value="DKK">DKK</option>
+            </select>
+        </div>
+        <button id="convertBtn">Convert</button>
+        <p id="convertedAmount"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
